@@ -5,7 +5,7 @@ var client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Welcome Bro ${client.user.tag}!`);
 });
-var prefix = '#'
+var prefix = 'a'
 
 client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
@@ -55,4 +55,4 @@ if (message.content.startsWith(prefix + 'setgame')) {
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login("NTg4MzI2NDk2NTc4MzA2MDU4.XRwPAQ.2pITVu9_0vjmOCpmYdSlsU81dbA");
